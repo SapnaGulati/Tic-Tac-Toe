@@ -99,12 +99,12 @@ public class MainActivity extends AppCompatActivity {
             if (activePlayer == 0) {
                 img.setImageResource(R.drawable.o);
                 activePlayer = 1;
-                status.setText(R.string.turn);
+                status.setText(R.string.turn1);
             }
             else if(activePlayer == 1){
                 img.setImageResource(R.drawable.x);
                 activePlayer = 0;
-                status.setText(R.string.turn1);
+                status.setText(R.string.turn);
             }
             img.animate().translationYBy(1000f).setDuration(300);
             for(int[] winPosition: winPositions) {

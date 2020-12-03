@@ -8,8 +8,8 @@
     <string name="draw">Draw Match - Restart to play again</string>
     <string name="win">Player-2 has won - Restart to play again</string>
     <string name="win1">Player-1 has won - Restart to play again</string>
-    <string name="player_2_s_score_0">Player-2\'s Score: </string>
-    <string name="player_1_s_score_0">Player-1\'s Score: </string>
     <string name="restart">Restart</string>
     <string name="exit">EXIT</string>
+    <string name="player_1_score">Player-1\'s Score:</string>
+    <string name="player_2_score">Player-2\'s Score:</string>
 </resources>
